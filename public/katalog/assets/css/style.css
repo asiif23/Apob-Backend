@@ -1,0 +1,185 @@
+
+/*@@@@@@@@@@@@@@   06. campaign   @@@@@@@@@@@@@@@@@*/
+.campaign-section {
+  padding-top: 85px; }
+  .campaign-section .section-wrapper {
+    background: #fff; }
+    @media (min-width: 1200px) {
+      .campaign-section .section-wrapper {
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px); } }
+    .campaign-section .section-wrapper .post-item .post-inner .post-thumb {
+      width: calc(100% / 1);
+      -webkit-transform: translateY(150px);
+      -ms-transform: translateY(150px);
+      transform: translateY(150px); }
+      @media (min-width: 992px) {
+        .campaign-section .section-wrapper .post-item .post-inner .post-thumb {
+          width: calc(100% / 2); } }
+      .campaign-section .section-wrapper .post-item .post-inner .post-thumb img {
+        width: 100%; }
+    .campaign-section .section-wrapper .post-item .post-inner .post-content {
+      width: calc(100% / 1);
+      -webkit-transform: translateY(-150px);
+      -ms-transform: translateY(-150px);
+      transform: translateY(-150px); }
+      @media (min-width: 992px) {
+        .campaign-section .section-wrapper .post-item .post-inner .post-content {
+          width: calc(100% / 2); } }
+      .campaign-section .section-wrapper .post-item .post-inner .post-content .content-inner {
+        padding: 20px; }
+        @media (min-width: 768px) {
+          .campaign-section .section-wrapper .post-item .post-inner .post-content .content-inner {
+            padding: 40px 30px; } }
+      .campaign-section .section-wrapper .post-item .post-inner .post-content h4 {
+        margin-bottom: 15px;
+        line-height: 30px; }
+      .campaign-section .section-wrapper .post-item .post-inner .post-content p {
+        margin-bottom: 35px; }
+    .campaign-section .section-wrapper .post-item .post-inner .post-thumb, .campaign-section .section-wrapper .post-item .post-inner .post-content {
+      -webkit-transition: all ease 1.5s;
+      -moz-transition: all ease 1.5s;
+      transition: all ease 1.5s; }
+    .campaign-section .section-wrapper .swiper-slide.swiper-slide-active .post-content,
+    .campaign-section .section-wrapper .swiper-slide.swiper-slide-active .post-thumb {
+      -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+    .campaign-section .section-wrapper .pagination-container {
+      width: 100%;
+      border-top: 1px solid #ecf0f3;
+      background: #fff;
+      z-index: 99; }
+      @media (min-width: 1200px) {
+        .campaign-section .section-wrapper .pagination-container {
+          width: 48%;
+          margin-top: -70px; } }
+      .campaign-section .section-wrapper .pagination-container .pagination-slider .post-item {
+        min-height: 70px;
+        align-items: center;
+        text-align: center; }
+        .campaign-section .section-wrapper .pagination-container .pagination-slider .post-item p {
+          margin: 0;
+          width: 100%;
+          color: #2f0b6c; }
+        .campaign-section .section-wrapper .pagination-container .pagination-slider .post-item:before {
+          top: 0;
+          left: 0;
+          height: 1px;
+          width: 100%;
+          background: transparent; }
+      .campaign-section .section-wrapper .pagination-container .pagination-slider .swiper-slide-thumb-active .post-item::before {
+        background: #84e18a; }
+      .campaign-section .section-wrapper .pagination-container .pagination-slider .swiper-slide-thumb-active .post-item p {
+        color: #84e18a; }
+  @media (min-width: 768px) {
+    .campaign-section.style-two:after {
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 437px;
+      background: url(../../assets/images/campaign/shape/01.jpg) no-repeat; } }
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .campaign-section.style-two:after {
+    right: -165px; } }
+
+  .campaign-section.style-two .section-wrapper {
+    z-index: 1;
+    box-shadow: none;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    background: transparent; }
+    .campaign-section.style-two .section-wrapper .campaign-slider-two {
+      margin: -15px; }
+    .campaign-section.style-two .section-wrapper .post-item .post-inner {
+      margin: 15px;
+      background: #fff; }
+      .campaign-section.style-two .section-wrapper .post-item .post-inner:hover .post-thumb img {
+        transform: scale(1.03); }
+      .campaign-section.style-two .section-wrapper .post-item .post-inner:hover .post-content h4 a {
+        color: #84e18a; }
+      .campaign-section.style-two .section-wrapper .post-item .post-inner .post-thumb, .campaign-section.style-two .section-wrapper .post-item .post-inner .post-content {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        width: 100%; }
+      .campaign-section.style-two .section-wrapper .post-item .post-inner .post-thumb a {
+        display: block; }
+        .campaign-section.style-two .section-wrapper .post-item .post-inner .post-thumb a img {
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+      .campaign-section.style-two .section-wrapper .post-item .post-inner .post-content {
+        padding: 28px;
+        padding-bottom: 40px; }
+        .campaign-section.style-two .section-wrapper .post-item .post-inner .post-content p {
+          margin-bottom: 28px; }
+        .campaign-section.style-two .section-wrapper .post-item .post-inner .post-content h4 {
+          margin-bottom: 14px; }
+  .campaign-section.style-three:after {
+    display: none !important; }
+  .campaign-section.style-three .section-wrapper {
+    justify-content: center;
+    margin: -15px; }
+    .campaign-section.style-three .section-wrapper .post-item {
+      width: calc(100% / 1); }
+      @media (min-width: 768px) {
+        .campaign-section.style-three .section-wrapper .post-item {
+          width: calc(100% / 2); } }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    .campaign-section.style-three .section-wrapper .post-item {
+      width: calc(100% / 3); } }
+
+  .campaign-section.style-four .section-wrapper .post-item .post-inner:hover .post-thumb::after {
+    transform: scale(1); }
+  .campaign-section.style-four .section-wrapper .post-item .post-inner:hover .post-thumb p {
+    transform: scale(1) translateY(-50%); }
+  .campaign-section.style-four .section-wrapper .post-item .post-inner:hover .post-content h5 a {
+    color: #84e18a; }
+  .campaign-section.style-four .section-wrapper .post-item .post-inner .post-thumb::after {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #a4ea58c9, #81e18fcf);
+    transform: scale(0); }
+  .campaign-section.style-four .section-wrapper .post-item .post-inner .post-thumb p {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    z-index: 11;
+    margin-bottom: 0;
+    transform: scale(0) translateY(-50%); }
+    .campaign-section.style-four .section-wrapper .post-item .post-inner .post-thumb p a {
+      width: 60px;
+      height: 60px;
+      line-height: 55px;
+      border-radius: 100%;
+      text-align: center;
+      font-size: 18px;
+      display: inline-block;
+      background: #fff;
+      border: 5px solid #cbeec1; }
+  .campaign-section.style-four .section-wrapper .post-item .post-inner .post-content {
+    padding: 30px; }
+    .campaign-section.style-four .section-wrapper .post-item .post-inner .post-content h5 {
+      margin-bottom: 0; }
+      .campaign-section.style-four .section-wrapper .post-item .post-inner .post-content h5 a:hover {
+        color: #84e18a; }
+    .campaign-section.style-four .section-wrapper .post-item .post-inner .post-content span {
+      color: #2f0b6c;
+      font-weight: 400; }
+      .campaign-section.style-four .section-wrapper .post-item .post-inner .post-content span i {
+        margin-right: 5px; }
+  @media (min-width: 1200px) {
+    .campaign-section.style-five .section-wrapper .post-item {
+      width: calc(100% / 2); } }
